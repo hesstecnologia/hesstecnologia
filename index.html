@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hess Desenvolvimento de Tecnologias Ltda</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta:400,500&display=swap" rel="stylesheet">
     <style>
         body, html {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Mukta', sans-serif;
             font-weight: 400;
             height: 100%;
         }
@@ -18,15 +18,32 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background: #e7ecef;
+            background: #f9fbff;
         }
         main {
             text-align: center;
         }
         .logo {
-            max-width: 40vw;
+            max-width: 30vw;
+        }
+        @media (max-width: 768px) {
+            .logo {
+                max-width: 60vw;
+            }
+        }
+        h5 {
+            font-weight: 500;
+            font-size: 1.4rem;
+            color: #01112B;
         }
     </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141225065-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-141225065-1');
+    </script>
 </head>
 <body>
     <main class="container">
@@ -34,7 +51,6 @@
             <div class="col text-center">
                 <img src="./static/logo.png" class="logo" />
                 <h5>Tecnologia para o futuro</h5>
-                <p>Site em construção.</p>
                 <p>Contato: <a href="mailto:contato@hess.dev">admin@hess.dev</a></p>
             </div>
         </div>
